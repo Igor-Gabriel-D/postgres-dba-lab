@@ -11,3 +11,9 @@ CREATE TABLE my_contacts (
     looking_for   VARCHAR(100) NOT NULL
 );
 
+CREATE TABLE donut_list (
+    donut_name    VARCHAR(10)  NOT NULL,
+    donut_type    VARCHAR(6)   NOT NULL,
+    donut_price   DEC(3,2)     NOT NULL DEFAULT 1.00
+);
+
