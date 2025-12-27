@@ -16,6 +16,12 @@ SELECT * FROM easy_drinks WHERE quantity1 < 1.5;
 
 SELECT drink_name, main, secundary FROM easy_drinks WHERE main = 'soda';
 
+SELECT drink_name FROM easy_drinks WHERE main = 'soda' AND quantity1 = 1.5;
+
+SELECT drink_name FROM easy_drinks WHERE main = 'soda' AND quantity1 > 1;
+
+SELECT drink_name FROM easy_drinks WHERE main = 'soda' AND quantity1 <> 1.5;
+
 
 
 
