@@ -1,4 +1,6 @@
 INSERT INTO drink_info VALUES
+('Holiday', NULL, 14, NULL, 'Y', 50),
+('Dragon Breath', 2.9, 7.2, 'brown', 'N', NULL),
 ('Blackthorn', 3, 8.4, 'yellow', 'Y', 33),
 ('Blue Moon', 2.5, 3.2, 'blue', 'Y', 12),
 ('Oh My Gosh', 3.5, 8.6, 'orange', 'Y', 35),
