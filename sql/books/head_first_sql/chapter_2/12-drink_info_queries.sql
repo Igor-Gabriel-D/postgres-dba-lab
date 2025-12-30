@@ -15,3 +15,11 @@ SELECT drink_name FROM drink_info WHERE calories IS NULL;
 SELECT drink_name FROM drink_info WHERE drink_name LIKE 'B%';
 
 SELECT drink_name, color FROM drink_info WHERE color LIKE '____n';
+
+SELECT drink_name FROM drink_info WHERE calories BETWEEN 30 AND 60;
+
+SELECT drink_name, color FROM drink_info WHERE color IN ('red', 'yellow', 'brown');
+
+SELECT drink_name, color FROM drink_info WHERE color NOT IN ('red', 'yellow', 'brown');
+
+SELECT drink_name FROM drink_info WHERE NOT drink_name LIKE 'B%';
