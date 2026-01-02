@@ -9,3 +9,12 @@ INSERT INTO clown_info(name, last_seen, appearance, activities) VALUES
 ('Babe', 'Earl''s Auto Parts', 'F, all pink and shiny', 'juggling, cart'),
 ('Bonzo', NULL, 'M, long polka-dot outfit', 'singing, dancing'),
 ('Sniffles', 'Tracy''s', 'M, green and purple suit, pointy nose', NULL);
+
+/*DUPLICATES*/
+('Zippo', 'Shopping Millstone', 'F, orange suit, long pants', 'dancing'),
+('Zippo', 'Shopping Millstone', 'F, orange suit, long pants', 'dancing, singing'),
+('Zippo', 'Oakland Hospital', 'F, orange suit, long pants', 'dancing, singing'),
+('Zippo', 'Tracy''s', 'F, orange suit, long pants', 'dancing, singing'),
+('Zippo', 'Ball Market', 'F, orange suit, long pants', 'dancing, juggling'),
+('Zippo', 'Shopping Millstone', 'F, orange suit, long pants', 'dancing, singing'),
+('Zippo', 'Oakland Hospital', 'F, orange suit, long pants', 'dancing, singing');
