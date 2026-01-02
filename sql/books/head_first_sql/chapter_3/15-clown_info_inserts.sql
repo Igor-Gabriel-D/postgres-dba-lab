@@ -8,7 +8,7 @@ INSERT INTO clown_info(name, last_seen, appearance, activities) VALUES
 ('Zippo', 'Millstone Shopping Center', 'F, orange suit, long pants', 'dancing'),
 ('Babe', 'Earl''s Auto Parts', 'F, all pink and shiny', 'juggling, cart'),
 ('Bonzo', NULL, 'M, long polka-dot outfit', 'singing, dancing'),
-('Sniffles', 'Tracy''s', 'M, green and purple suit, pointy nose', NULL);
+('Sniffles', 'Tracy''s', 'M, green and purple suit, pointy nose', NULL),
 
 /*DUPLICATES*/
 ('Zippo', 'Shopping Millstone', 'F, orange suit, long pants', 'dancing'),
