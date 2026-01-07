@@ -1,0 +1,2 @@
+ALTER TABLE my_contacts
+ADD COLUMN phone VARCHAR(10);
